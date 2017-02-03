@@ -48,12 +48,12 @@ void sine_serial(float *input, float *output)
 
 __global__ void sine_parallel(ﬂoat *input, ﬂoat *output)
 {
-	int i = threadIdx.x
+	int i = threadIdx.x;
 	
 	float value = input[i];
 	float numer = input[i] * input[i] * input[i]; 
-    int denom = 6; // 3! 
-    int sign = -1; 
+    	int denom = 6; // 3! 
+    	int sign = -1; 
 	for (int j=1; j<=TERMS;j++) 
 	{ 
 		value += sign * numer / denom; 
