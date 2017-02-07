@@ -153,7 +153,7 @@ int main (int argc, char **argv)
 
   //launch the and time the kernel
   long long GPU_kernel_start_time = start_timer();
-  sine_parallel<<<12057, 1024>>>(d_output, d_input);
+  sine_parallel<<<12057, 1024>>>(d_input, d_output);
   long long GPU_kernel_time = stop_timer(GPU_kernel_start_time, "\nGPU Kernel Run Time");
   
   //copy back the result to the CPU
