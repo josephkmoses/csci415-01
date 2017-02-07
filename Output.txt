@@ -1,42 +1,57 @@
 josmoses@titan:~/gitHubRepo/csci415-01$ ./ParallelSine
 
-CPU Run Time: 0.38216 sec
+CPU Run Time: 0.38214 sec
 
-GPU Memory Allocation Time: 0.12895 sec
+GPU Memory Allocation Time: 0.13048 sec
 
-GPU Copy Memory to Device Time: 0.006903 sec
+GPU Copy Memory to Device Time: 0.006861 sec
 
 GPU Kernel Run Time: 4.3e-05 sec
 
-GPU Copy Memory to Host Time: 0.014424 sec
+GPU Copy Memory to Host Time: 0.012726 sec
 
-GPU Total Run Time: 0.15042 sec
+GPU Total Run Time: 0.15022 sec
 Result comparison passed.
 josmoses@titan:~/gitHubRepo/csci415-01$ ./ParallelSine
 
-CPU Run Time: 0.38175 sec
+CPU Run Time: 0.38628 sec
 
-GPU Memory Allocation Time: 0.11491 sec
+GPU Memory Allocation Time: 0.1044 sec
 
-GPU Copy Memory to Device Time: 0.006975 sec
+GPU Copy Memory to Device Time: 0.006876 sec
 
-GPU Kernel Run Time: 4.5e-05 sec
+GPU Kernel Run Time: 4e-05 sec
 
-GPU Copy Memory to Host Time: 0.014183 sec
+GPU Copy Memory to Host Time: 0.013022 sec
 
-GPU Total Run Time: 0.13622 sec
+GPU Total Run Time: 0.12444 sec
 Result comparison passed.
 josmoses@titan:~/gitHubRepo/csci415-01$ ./ParallelSine
 
-CPU Run Time: 0.3823 sec
+CPU Run Time: 0.38192 sec
 
-GPU Memory Allocation Time: 0.096272 sec
+GPU Memory Allocation Time: 0.092229 sec
 
-GPU Copy Memory to Device Time: 0.006985 sec
+GPU Copy Memory to Device Time: 0.00687 sec
 
-GPU Kernel Run Time: 4.2e-05 sec
+GPU Kernel Run Time: 4e-05 sec
 
-GPU Copy Memory to Host Time: 0.014358 sec
+GPU Copy Memory to Host Time: 0.013149 sec
 
-GPU Total Run Time: 0.11775 sec
+GPU Total Run Time: 0.11239 sec
 Result comparison passed.
+josmoses@titan:~/gitHubRepo/csci415-01$ ./ParallelSine
+
+CPU Run Time: 0.38193 sec
+
+GPU Memory Allocation Time: 0.094852 sec
+
+GPU Copy Memory to Device Time: 0.007229 sec
+
+GPU Kernel Run Time: 4.4e-05 sec
+
+GPU Copy Memory to Host Time: 0.012915 sec
+
+GPU Total Run Time: 0.11513 sec
+Result comparison passed.
+josmoses@titan:~/gitHubRepo/csci415-01$
