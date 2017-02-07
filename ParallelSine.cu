@@ -48,7 +48,7 @@ void sine_serial(float *input, float *output)
 
 __global__ void sine_parallel(float *input, float *output)
 {
-	int i = threadIdx.x;
+	int i = blockIdx.x * blockDim.x + threadIdx.x;
 	
 	float value = input[i];
 	float numer = input[i] * input[i] * input[i]; 
